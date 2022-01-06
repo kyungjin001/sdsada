@@ -19,7 +19,7 @@ public class MemberEntity {  //pk를 무조건 가지고 있어야함
     // memberEmail: 크기50, unique
     @Column(length = 50, unique = true) // 유니크 값 주기
     private String memberEmail;
-
+//ㅇㅇ
     //memberEmail: 크기 20
     @Column(length = 20) // 컬럼 크기
     private String memberPassword;
