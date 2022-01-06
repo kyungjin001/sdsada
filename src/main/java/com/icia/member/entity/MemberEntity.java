@@ -17,11 +17,11 @@ public class MemberEntity {  //pk를 무조건 가지고 있어야함
     private Long id;
 
     // memberEmail: 크기50, unique
-    @Column(length = 50, unique = true)
+    @Column(length = 50, unique = true) // 유니크 값 주기
     private String memberEmail;
 
     //memberEmail: 크기 20
-    @Column(length = 20)
+    @Column(length = 20) // 컬럼 크기
     private String memberPassword;
 
     //Column 생략하면 생략하면 default 크기가 255로 지정됨
